@@ -1,38 +1,233 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background-color: #2A2A31;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-main {
+  background-color: #232329;
+  width: 520px;
+  height: 544px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.line {
+  width: 4px;
+  height: 48px;
+  background-color: #70BBFD;
+}
+
+.register {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.easy_first {
+  color: white;
+  font-size: 24px;
+}
+
+.easy_first span {
+  font-weight: 900;
+}
+
+.easy_first span:nth-child(2) {
+  color: #70BBFD;
+}
+
+.easy_second p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #99999999;
+}
+
+.username,
+.gmail,
+.pass {
+  display: flex;
+  align-items: center;
+}
+
+.gmail p,
+.pass p,
+.username p {
+  color: #999;
+  height: 32px;
+  width: 32px;
+  background-color: #2A2A31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp_ input {
+  display: flex;
+  background-color: #232329;
+  border: 1px solid #2A2A31;
+  width: 400px;
+  height: 31px;
+  margin: 10px 0;
+  padding: 0 10px;
+  outline: none;
+}
+
+.inp_ label {
+  color: #DDDDDDDD;
+}
+
+.inp_ button {
+  width: 438px;
+  height: 38px;
+  border-radius: 5px;
+  color: white;
+  background-color: #70BBFD;
+  font-weight: 900;
+  margin: 10px 0;
+  margin-bottom: 40px;
+
+}
+
+.contoo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 540px;
+}
+
+.forgot-password {
   color: white;
+  display: flex;
+  justify-content: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.forgot-password a {
+  color: #70BBFD;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.warnings {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  color: red;
+}
+
+.forgot-pass {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-size: 12px;
+  color: #70BBFD;
+
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rememberMe input {
+  width: 20px;
+}
+
+.rememberMe p {
+  color: #999;
+}
+
+.btnLog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btnLog button {
+  width: 220px;
+}
+
+.btnLog a {
+  background-color: #2A2A31;
+  border: 1px solid #70BBFD;
+  color: #70BBFD;
+  width: 220px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: -30px 0 0 0;
+  border-radius: 5px;
+  padding: 0;
+
+}
+
+.orEasilyUsing {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.orEasilyUsing p {
+  color: #999;
+}
+
+.orEasilyUsing div {
+  width: 130px;
+  height: 2px;
+  background-color: #999;
+}
+
+.icone {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0 0 0;
+}
+
+.icone div {
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.icone div:nth-child(1) {
+  background-color: #4565A3;
+}
+
+.icone div:nth-child(2) {
+  background-color:
+    #C74D4D;
+}
+
+.icone div:nth-child(3) {
+  background-color: 
+  #1863FA;
+}
+
+.icone div:nth-child(4) {
+  background-color: 
+  #36985D;
+}
+
+.facebook a,
+.google a {
+  color: white;
 }
